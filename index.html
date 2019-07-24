@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Amazon Transcribe WebSocket API - Sample Application</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.shoelace.style/1.0.0-beta24/shoelace.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Amazon Transcribe WebSocket API - Sample Application</h1>
+            <p class="description">
+                This application demonstrates real-time transcription using 
+                <a href="https://aws.amazon.com/transcribe/">Amazon Transcribe's</a> WebSocket API.
+                </br><br/>
+                You'll need an <a href="https://aws.amazon.com/free/">AWS Account</a>. Then, attach the
+                <a href="policy.json">necessary IAM policy</a> to your IAM User to enable the WebSocket API.
+
+                One you've got an authorized user, enter your Access Id and Secret Key below.
+            </p>
+            <div id="error" class="isa_error"></div>
+
+            <p id="p_input_access_id">
+                <input type="password" id="access_id" placeholder="ACCESS ID" value=""/>
+            </p>
+            <p>
+                <input type="password" id="secret_key" placeholder="SECRET KEY" value=""/>
+            </p>
+            <p> 
+                <select id="language">
+                    <optgroup label="English">
+                        <option value="en-US">US English (en-US)</option>
+                        <option value="en-GB">British English (en-GB)</option>
+                    </optgroup>
+                    <optgroup label="French">
+                        <option value="fr-CA">Canadian French (fr-CA)</option>
+                        <option value="fr-FR">French (fr-FR)</option>
+                    </optgroup>                    
+                    <optgroup label="Spanish">
+                        <option value="es-US">US Spanish (es-US)</option>
+                    </optgroup>
+                </select>
+            </p>
+            <div class="app">
+
+                <button id="start-button" title="Start Transcription">Start Transcription</button>
+                <button id="stop-button" title="Stop Transcription" disabled="true">Stop Transcription</button>
+                <textarea id="transcript" placeholder="Your transcripts will show up here." rows="10" readonly="readonly"></textarea> 
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="dist/main.js"></script>
+    </body>
+</html>
+
+
