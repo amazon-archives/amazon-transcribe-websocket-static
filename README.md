@@ -1,10 +1,14 @@
 ## Amazon Transcribe Websocket Static
 
+[Try it out](https://github.com/aws-samples/amazon-transcribe-websocket-static)
+
 A static site demonstrating real-time audio transcription via Amazon Transcribe over a WebSocket.
 
 This demo app uses browser microphone input and client-side JavaScript to demonstrate the real-time streaming audio transcription capability of [Amazon Transcribe](https://aws.amazon.com/transcribe/) using WebSockets.
 
-## Building
+Check out the [Amazon Transcribe WebSocket docs](https://docs.aws.amazon.com/transcribe/latest/dg/websocket.html).
+
+## Building and Deploying
 
 [![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/aws-samples/amazon-transcribe-websocket-static)
 
