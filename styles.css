@@ -1,30 +1,5 @@
-@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
-
-p {
-    color: #404040;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 15px;
-    text-align: center;
-}
-
-.container h1 {
-    margin-bottom: 20px;
-}
-
-.description {
-    width: 80%;
-    font-size: 1.1rem;
-    margin-bottom: 1.4rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.app {
-    margin: 20px auto;
+body {
+    margin: 20px;
 }
 
 #transcript {
@@ -32,18 +7,9 @@ p {
     white-space: pre-wrap;
 }
 
-#start-button, #stop-button {
+#start-button,
+#stop-button {
     margin: 5px 0;
-}
-
-p {
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#p_input_access_id {
-    margin-bottom: 0.6rem;
 }
 
 #error {
@@ -57,9 +23,21 @@ p {
     display: none;
 }
 
-
 .isa_error i {
-    margin:2px 12px;
-    font-size:1.5em;
-    vertical-align:middle;
+    margin: 2px 12px;
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+#logo {
+    height: 80px;
+}
+
+#github {
+    fill: #146eb4;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    border: 0;
+    right: 0;
 }
