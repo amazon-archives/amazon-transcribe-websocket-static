@@ -1,6 +1,6 @@
 ## Amazon Transcribe Websocket Static
 
-[Try it out](https://github.com/aws-samples/amazon-transcribe-websocket-static)
+[Try it out](https://transcribe-websockets.go-aws.com/)
 
 A static site demonstrating real-time audio transcription via Amazon Transcribe over a WebSocket.
 
