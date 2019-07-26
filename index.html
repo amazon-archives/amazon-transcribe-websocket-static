@@ -58,18 +58,21 @@
                     <option value="ca-central-1">Canada (Central)</option>
                     <option value="eu-west-1">EU (Ireland)</option>
                 </select>
-
             </div>
         </div>
         <textarea id="transcript" placeholder="Press Start and speak into your mic" rows="5"
             readonly="readonly"></textarea>
         <div class="row">
             <div class="col">
-                <button id="start-button" class="button-xl" title="Start Transcription"><i class="fa fa-microphone"></i>
-                    Start</button>
+                <button id="start-button" class="button-xl" title="Start Transcription">
+                    <i class="fa fa-microphone"></i> Start
+                </button>
                 <button id="stop-button" class="button-xl" title="Stop Transcription" disabled="true"><i
-                        class="fa fa-stop-circle"></i>
-                    Stop</button>
+                        class="fa fa-stop-circle"></i> Stop
+                </button>
+                <button id="reset-button" class="button-xl button-secondary" title="Clear Transcript"> 
+                    Clear Transcript
+                </button>
             </div>
             <div class="col">
                 <a class="float-right" href="https://aws.amazon.com/free/" aria-label="Amazon Web Services">
