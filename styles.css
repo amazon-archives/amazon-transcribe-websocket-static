@@ -30,7 +30,7 @@ body {
 }
 
 #logo {
-    height: 80px;
+    height: 52px;
 }
 
 #github {
@@ -40,4 +40,8 @@ body {
     top: 0;
     border: 0;
     right: 0;
+}
+
+.small-caps {
+    font-variant: small-caps;
 }
