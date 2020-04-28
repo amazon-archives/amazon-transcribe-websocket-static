@@ -29,6 +29,7 @@ We use [browserify](https://github.com/browserify/browserify) to enable browser 
 3. Bootstrap the workspace, make sure you have [yarn installed](https://classic.yarnpkg.com/en/docs/install/#mac-stable):
     ```
     yarn bootstrap
+    yarn build:crypto-dependencies
     ```
 4. Build the SDK core packages, make sure you have lerna installed. If not, run `npm i -g lerna`
     ```
