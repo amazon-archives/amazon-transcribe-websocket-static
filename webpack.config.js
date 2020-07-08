@@ -1,10 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  entry: './lib/main.js',
-  output: {
-    filename: 'main.js',
-    path: path.resolve(path.join(__dirname, 'dist')),
+  entry: {
+    main: './lib/main.js'
   },
   node: {
     fs: "empty"
