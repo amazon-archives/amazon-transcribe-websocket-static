@@ -18,9 +18,9 @@ We use [browserify](https://github.com/browserify/browserify) to enable browser 
 
 1. Clone the repo
 
-1. run `npm install`
+1. run `yarn`
 
-1. run `npm run start`. This command will automatically load the sample app in your browser.
+1. run `yarn start`. This command will automatically load the sample app in your browser.
 
 ### Credits
 
