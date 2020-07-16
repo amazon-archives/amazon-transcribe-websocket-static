@@ -8,13 +8,14 @@ This demo app uses browser microphone input and client-side JavaScript to demons
 
 Check out the [Amazon Transcribe WebSocket docs](https://docs.aws.amazon.com/transcribe/latest/dg/websocket.html).
 
+**Note**: This sample uses the [AWS SDK v3](https://github.com/aws/aws-sdk-js-v3) that is currently in preview. If you plan to use the AWS SDK v3 in your
+project, please be aware of the possible breaking change. If you have feedbacks to JS SDK client, please [open an issue on the SDK repository](https://github.com/aws/aws-sdk-js-v3/issues/new/choose).
+
 ## Building and Deploying
 
 [![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/aws-samples/amazon-transcribe-websocket-static)
 
 Even though this is a static site consisting only of HTML, CSS, and client-side JavaScript, there is a build step required. Some of the modules used were originally made for server-side code and do not work natively in the browser.
-
-We use [browserify](https://github.com/browserify/browserify) to enable browser support for the JavaScript modules we `require()`.
 
 1. Clone the repo
 
