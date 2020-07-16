@@ -4,9 +4,6 @@ module.exports = {
   entry: {
     main: './lib/main.js'
   },
-  node: {
-    fs: "empty"
-  },
   target: 'web',
   mode: 'development',
   devtool: false,
